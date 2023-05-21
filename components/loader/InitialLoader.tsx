@@ -37,7 +37,7 @@ export default function InitialLoader() {
 
       <div className="absolute top-0 h-screen w-screen">
         <Video
-          src="/steak_1080p.mp4"
+          src="/steak_1080p_cut_10_c.mp4"
           poster="/next.svg"
           onReadyToPlay={() => setVideoIsReadyToPlay(true)}
           startPlaying={startPlaying}
