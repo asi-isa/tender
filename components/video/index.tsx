@@ -25,7 +25,7 @@ export default function Video({
         return;
       }
 
-      ref.current.oncanplay = () => {
+      ref.current.oncanplaythrough = () => {
         onReadyToPlay();
       };
     }
