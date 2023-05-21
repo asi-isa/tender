@@ -1,5 +1,9 @@
-import Image from "next/image";
+import FirstSection from "@/components/sections/FirstSection";
 
 export default function Home() {
-  return <main>init</main>;
+  return (
+    <main>
+      <FirstSection />
+    </main>
+  );
 }
