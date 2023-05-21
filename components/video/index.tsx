@@ -21,11 +21,15 @@ export default function Video({
     if (ref) {
       // video data has already been loaded
       if (ref.current.readyState === ref.current.HAVE_ENOUGH_DATA) {
+        console.log("have enough data");
+
         onReadyToPlay();
         return;
       }
 
       ref.current.oncanplaythrough = () => {
+        console.log("on can play through");
+
         onReadyToPlay();
       };
     }

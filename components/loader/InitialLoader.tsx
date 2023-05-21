@@ -17,6 +17,8 @@ export default function InitialLoader() {
       setStopLoaderAnimation(true);
 
       window.setTimeout(() => {
+        console.log("play");
+
         setStartPlaying(true);
       }, stopLoaderAnimationDuration);
     }
